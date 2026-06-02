@@ -248,6 +248,7 @@ main:has(#section2 .title[data-title="The Kennedy Center"]:hover) .images img[id
   position: relative;
   min-height: 100vh;
   z-index: 0;
+  margin-top: 10rem;
   .left{
     width: 50%;
     p{
@@ -256,7 +257,7 @@ main:has(#section2 .title[data-title="The Kennedy Center"]:hover) .images img[id
       font-size: 2rem;
       font-weight: 600;
       padding-left: 18rem;
-      padding-top: 8rem;
+      padding-top: 4rem;
       line-height: 1.2;
       text-align: left;
       font-family: 'Times New Roman', Times, serif;
