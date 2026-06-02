@@ -18,9 +18,11 @@ function App() {
         <img id = "The Kennedy" src="/bgimages/image copy 5.png" alt="" />
         <img id = "The Royal Opera" src="/bgimages/image copy 6.png" alt="" />
       </div>
+      <div className='canvas-bg'>
       <Canvas id = "canvas-elem" style={{height:"100vh",width:"100vw",position:'fixed',top:0,left:0,zIndex:1}}>
         <Wolf />
       </Canvas>
+      </div>
       <section id='section1'>
         <nav>
         <div className='nav-element'>
